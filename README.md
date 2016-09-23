@@ -20,11 +20,11 @@ With the current implementation of the Server, following behavior is supported
 * Clone the project: 
 https://github.com/shreyabastikar/FilebasedWebServerUsingThreadPool.git
 
-* #### For Server: ####
+#### For Server: ####
 ```
 java MultiThreadedServer <portnumber> <serverDirectoryName>
 ```
-* #### For Client: ####
+#### For Client: ####
 ```
 java Client <serverportnumber> <serverName OR hostname>
 ```
