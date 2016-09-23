@@ -1,4 +1,4 @@
-# Multithreaded file-based Web Server with Thread pools with Keep-Alive Behavior
+# Multi-threaded file-based Web Server with Thread pools with Keep-Alive Behavior
 
 ### Description ###
 * The main aim of this project is to develop a File-based Multithreaded Web Server which uses Thread pooling. 
