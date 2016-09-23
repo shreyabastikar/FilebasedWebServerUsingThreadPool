@@ -2,17 +2,17 @@
 
 ## Description: ##
 * The main aim of this project is to develop a File-based Multithreaded Web Server which uses Thread pooling. 
-* The server can accept N number of client connections at a time with the help of Thread pooling
+* The server can accept N number of client connections at a time with the help of Thread pooling.
 
 
 ## Note: ##
-With the current implementation of the Server, following behavior is supported
+With the current implementation of the Server, following behavior is supported:
 * The server can handle HTML file GET requests only. For other requests, Status Code 501 NOT_IMPLEMENTED is returned.
 * The server supports HTTP requests only. 
 * The client sends HTTP Request in the form of GET /<filepath> HTTP/1.1
-* And HTTP Request following HTTP/1.1 standards is created and sent to the server
-* In case the file is found, its contents are returned are added as response body in the HTTP Response which follows HTTP/1.1 standards with 200 OK
-* In case the file is NOT found, an HTTP response body with appropriate HTML page is generated which is then appended to HTTP Response which follows HTTP/1.1 standards with 404 NOT_FOUND
+* And HTTP Request following HTTP/1.1 standards is created and sent to the server.
+* In case the file is found, its contents are returned are added as response body in the HTTP Response which follows HTTP/1.1 standards with 200 OK.
+* In case the file is NOT found, an HTTP response body with appropriate HTML page is generated which is then appended to HTTP Response which follows HTTP/1.1 standards with 404 NOT_FOUND.
 * Keep-alive behavior has also been implemented. The client can specify if it wants to continue sending requests on the same connection.
 
 
