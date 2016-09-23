@@ -1,11 +1,11 @@
 # Multi-threaded file-based Web Server with Thread pools with Keep-Alive Behavior
 
-### Description: ###
+## Description: ##
 * The main aim of this project is to develop a File-based Multithreaded Web Server which uses Thread pooling. 
 * The server can accept N number of client connections at a time with the help of Thread pooling
 
 
-### Note: ###
+## Note: ##
 With the current implementation of the Server, following behavior is supported
 * The server can handle HTML file GET requests only. For other requests, Status Code 501 NOT_IMPLEMENTED is returned.
 * The server supports HTTP requests only. 
@@ -16,7 +16,7 @@ With the current implementation of the Server, following behavior is supported
 * Keep-alive behavior has also been implemented. The client can specify if it wants to continue sending requests on the same connection.
 
 
-### Steps to run the program: ###
+## Steps to run the program: ##
 * Clone the project: 
 https://github.com/shreyabastikar/FilebasedWebServerUsingThreadPool.git
 
@@ -29,7 +29,7 @@ java MultiThreadedServer <portnumber> <serverDirectoryName>
 java Client <serverportnumber> <serverName OR hostname>
 ```
 
-### Sample Output ###
+## Sample Output ##
 
 #### Server side ####
 ```
