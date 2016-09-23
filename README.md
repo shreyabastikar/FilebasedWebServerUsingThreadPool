@@ -126,3 +126,10 @@ Content-Length: 65
 Client connection has been closed.
 ```
 
+## References: ##
+https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html
+https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+https://www.jmarshall.com/easy/http/#http1.1clients
+https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Client_request
+http://www.javatpoint.com/multithreading-in-java
+http://docs.oracle.com/javase/tutorial/networking/sockets/
