@@ -1,11 +1,11 @@
 # Multi-threaded file-based Web Server with Thread pools with Keep-Alive Behavior
 
-### Description ###
+### Description: ###
 * The main aim of this project is to develop a File-based Multithreaded Web Server which uses Thread pooling. 
 * The server can accept N number of client connections at a time with the help of Thread pooling
 
 
-### Note ###
+### Note: ###
 With the current implementation of the Server, following behavior is supported
 * The server can handle HTML file GET requests only. For other requests, Status Code 501 NOT_IMPLEMENTED is returned.
 * The server supports HTTP requests only. 
@@ -54,7 +54,7 @@ Request successfully processed!
 Connection with client  /127.0.0.1:57387 has now ended
 ```
 
-####Client side####
+#### Client side ####
 ```
 Trying to connect to localhost on port 9008
 Connection to localhost/127.0.0.1:9008 has been established!
